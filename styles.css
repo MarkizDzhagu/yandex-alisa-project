@@ -1,0 +1,830 @@
+/*Fonts*/
+
+@font-face {
+    font-family: 'YandexSansText';
+    src: url("/font/YandexSansText-Thin.eot");
+    src: local('/font/Yandex Sans Text Thin'), local('/font/YandexSansText-Thin'),
+        url('/font/YandexSansText-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansText-Thin.woff2') format('woff2'),
+        url('/font/YandexSansText-Thin.woff') format('woff'),
+        url('/font/YandexSansText-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YandexSansDisplay';
+    src: url('/font/YandexSansDisplay-Regular.eot');
+    src: local('/font/Yandex Sans Display Regular'), local('/font/YandexSansDisplay-Regular'),
+        url('/font/YandexSansDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansDisplay-Regular.woff2') format('woff2'),
+        url('/font/YandexSansDisplay-Regular.woff') format('woff'),
+        url('/font/YandexSansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YandexSansText';
+    src: url('/font/YandexSansText-RegularItalic.eot');
+    src: local('Yandex Sans Text Regular Italic'), local('YandexSansText-RegularItalic'),
+        url('/font/YandexSansText-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansText-RegularItalic.woff2') format('woff2'),
+        url('/font/YandexSansText-RegularItalic.woff') format('woff'),
+        url('/font/YandexSansText-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('YandexSansDisplay-RegularItalic.eot');
+    src: local('Yandex Sans Display Regular Italic'), local('YandexSansDisplay-RegularItalic'),
+        url('YandexSansDisplay-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('YandexSansDisplay-RegularItalic.woff2') format('woff2'),
+        url('YandexSansDisplay-RegularItalic.woff') format('woff'),
+        url('YandexSansDisplay-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'YandexSansDisplay';
+    src: url('/font/YandexSansDisplay-Light.eot');
+    src: local('Yandex Sans Display Light'), local('/font/YandexSansDisplay-Light'),
+        url('/font/YandexSansDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansDisplay-Light.woff2') format('woff2'),
+        url('/font/YandexSansDisplay-Light.woff') format('woff'),
+        url('/font/YandexSansDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YandexSansText';
+    src: url('/font/YandexSansText-Regular.eot');
+    src: local('Yandex Sans Text Regular'), local('/font/YandexSansText-Regular'),
+        url('/font/YandexSansText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansText-Regular.woff2') format('woff2'),
+        url('/font/YandexSansText-Regular.woff') format('woff'),
+        url('/font/YandexSansText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YandexSansText';
+    src: url('/font/YandexSansText-Light.eot');
+    src: local('Yandex Sans Text Light'), local('/font/YandexSansText-Light'),
+        url('/font/YandexSansText-Light.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansText-Light.woff2') format('woff2'),
+        url('/font/YandexSansText-Light.woff') format('woff'),
+        url('/font/YandexSansText-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YandexSansDisplay';
+    src: url('/font/YandexSansDisplay-Bold.eot');
+    src: local('Yandex Sans Display Bold'), local('/font/YandexSansDisplay-Bold'),
+        url('/font/YandexSansDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansDisplay-Bold.woff2') format('woff2'),
+        url('/font/YandexSansDisplay-Bold.woff') format('woff'),
+        url('/font/YandexSansDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YandexSansDisplay';
+    src: url('/font/YandexSansDisplay-Thin.eot');
+    src: local('Yandex Sans Display Thin'), local('/font/YandexSansDisplay-Thin'),
+        url('/font/YandexSansDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansDisplay-Thin.woff2') format('woff2'),
+        url('/font/YandexSansDisplay-Thin.woff') format('woff'),
+        url('/font/YandexSansDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YandexSansText';
+    src: url('/font/YandexSansText-Bold.eot');
+    src: local('Yandex Sans Text Bold'), local('/font/YandexSansText-Bold'),
+        url('/font/YandexSansText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansText-Bold.woff2') format('woff2'),
+        url('/font/YandexSansText-Bold.woff') format('woff'),
+        url('/font/YandexSansText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YandexSansText';
+    src: url('/font/YandexSansText-Medium.eot');
+    src: local('Yandex Sans Text Medium'), local('/font/YandexSansText-Medium'),
+        url('/font/YandexSansText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/font/YandexSansText-Medium.woff2') format('woff2'),
+        url('/font/YandexSansText-Medium.woff') format('woff'),
+        url('/font/YandexSansText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*Global styles*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+img, h1, h2, h3, h4, h5, h6, p, span, button {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 130px;
+    align-items: center;
+    gap: 240px;
+    margin-bottom: 64px;
+}
+
+.yandex__logo {
+    color: white;
+    text-decoration: none;
+    font-family: "YandexSansText";
+    font-size: 30px;
+    background-color: black;
+    padding: 2px 12px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    transition: all 0.1s ease-in-out;
+}
+
+.yandex__logo:hover {
+    background-color: red;
+}
+
+.station__logo {
+    font-family: "YandexSansText";
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.header__nav ul {
+    display: flex;
+}
+
+.nav__element {
+    font-family: "YandexSansText";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: center;
+    color: #121212;
+    text-decoration: none;
+    margin-right: 64px;
+    transition: all 0.3s ease-in;
+    border-bottom: 2px solid transparent;
+}
+
+.nav__element:hover {
+    border-bottom: 1px solid #6337FF;
+}
+
+.header__button {
+    color: white;
+    font-family: "YandexSansText";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+    padding: 10px 38px;
+    background-color: #6337FF;
+    border-radius: 46px;
+    cursor: pointer;
+    transition: 0.1s all ease-in;
+}
+
+.header__button:hover {
+    color: black;
+}
+
+
+/*Main*/
+
+.first__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.headtext {
+    font-family: "YandexSansText";
+    font-weight: 300;
+    font-size: 90px;
+    color: #121212;
+    margin-bottom: 27px;
+}
+
+.first__subtext {
+    font-family: "YandexSansText";
+    font-weight: 400;
+    font-size: 24px;
+    color: #121212;
+    max-width: 627px;
+    line-height: 125%;
+    margin-bottom: 75px;
+}
+
+.second__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 130px;
+}
+
+.second__top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 600px;
+}
+
+.second__subtext {
+    font-family: "YandexSansText";
+    font-weight: 400;
+    font-size: 18px;
+    color: #121212;
+    max-width: 278px;
+    margin-left: 45px;
+}
+
+.second__image {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.second__image img {
+    max-width: 100%;
+}
+
+.second__description {
+    position: absolute;
+    top: 400px;
+    color: white;
+    margin-left: 130px;
+    font-family: "YandexSansText";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 384px;
+}
+
+.second__description-headtext {
+    font-weight: 500;
+    margin: 40px 0 16px 0;
+}
+
+.second__description-subtext1 {
+    max-width: 260px;
+}
+
+.second__description-subtext2 {
+    max-width: 280px;
+}
+
+.second__bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0 52px 0;
+}
+
+.second__bottom-oval {
+    width: 44px;
+    height: 24px;
+    border-radius: 60px;
+    margin-right: 30px;
+    transition: all 0.1s ease-in;
+    border: 1px solid transparent;
+}
+
+.second__bottom-oval:hover {
+    border: 1px solid #BBBBBB;
+}
+
+.oval1 {
+    background-color: #242424;
+}
+
+.oval2 {
+    background-color:#E3D2C3;
+    ;
+}
+
+.oval3 {
+    background-color: #27279C;
+}
+
+.oval4 {
+    background-color: #991823;
+}
+
+.third__section {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-image: url(/img/Union.png);
+}
+
+.third__section-left {
+    margin-left: 240px;
+    margin-top: 235px;
+}
+
+.third__section-subtext {
+    max-width: 299px;
+    font-family: "YandexSansText";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: #121212;
+    margin-bottom: 142px;
+}
+
+.third__section-headdescription {
+    max-width: 220px;
+    font-family: "YandexSansText";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.5px;
+    color: #121212;
+    margin-bottom: 16px;
+}
+
+.third__section-description {
+    max-width: 186px;
+    font-family: "YandexSansText";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #121212;
+    margin-bottom: 40px;
+}
+
+.third__section-right {
+    position: relative;
+    width: 800px;
+}
+
+.third__section-right img {
+    position: absolute;
+    max-width: 100%;
+    
+}
+
+.index1 {
+    z-index: 12;
+    bottom: 450px;
+    transform: translateY(50px);
+}
+
+.index2-2 {
+    z-index: 10;
+    transform: translateY(-140px);
+}
+
+.index2 {
+    transform: translateY(-140px);
+}
+
+.index3 {
+    z-index: 3;
+    transform: translateY(-180px);
+}
+
+.index4 {
+    z-index: 2;
+    transform: translateY(-80px);
+}
+
+.index5 {
+    z-index: 11;
+    transform: translateY(-525px);
+}
+
+.index6 {
+    z-index: 1;
+    transform: translateY(-525px);
+}
+
+.element-show {
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+
+/*burger*/
+
+.toggle-sidebar {
+    display: none;
+}
+
+/*media quares*/
+
+@media (max-width: 1625px) {
+    .nav__element {
+        margin-right: 32px;
+    }
+    header {
+        padding: 18px 75px;
+    }
+    .third__section-right {
+        width: 500px;
+        display: flex;
+        align-items: end;
+    }
+    .second__section {
+        display: flex;
+        max-width: 100%;
+    }
+    .second__image img{
+        max-width: 100%;    
+        overflow: hidden;
+    }
+    .second__description {
+        top: 300px;
+        margin-left: 130px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1440px) {
+    header {
+        padding: 18px 70px;
+        gap: 60px;
+        margin-bottom: 64px;
+    }
+    .first__image img {
+        width: 70%
+    }
+    .second__top {
+        margin-right: 200px;
+    }
+    .second__description {
+        top: 150px;
+        margin-left: 70px;
+        font-size: 14px;
+        max-width: 200px;
+    }
+    .third__section-left {
+        margin-left: 120px;
+    }
+    .second__section {
+        padding: 0 60px;
+    }
+    .second__image {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 18px 30px;
+        gap: 30px;
+    }
+    .station__logo {
+        font-size: 18px;
+    }
+    .header__button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+    .nav__element {
+        margin-right: 20px;
+    }
+    .headtext {
+        font-size: 60px;
+    }
+    .first__subtext, .second__subtext {
+        font-size: 16px;
+    }
+    .second__top {
+        margin-right: 0;
+    }
+    .second__section {
+        padding: 0 30px;
+    }
+    .second__description {
+        top: 100px;
+        margin-left: 40px;
+        font-size: 12px;
+        max-width: 180px;
+    }
+    .third__section-left {
+        margin-left: 60px;
+        margin-top: 120px;
+    }
+    .third__section-subtext {
+        margin-bottom: 70px;
+        font-size: 14px;
+    }
+    .third__section-headdescription, .third__section-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 18px 15px;
+        display: grid;
+        grid-template-areas:
+        "logo button"
+        "nav nav";
+    }
+    .header__logo {
+        grid-area: logo;
+    }
+    .header__nav {
+        grid-area: nav;
+        justify-self: center;
+    }
+    .header__button {
+        grid-area: button;
+        padding: 10px 20px;
+        justify-self: end;
+    }
+    .headtext {
+        font-size: 40px;
+    }
+    .first__subtext, .second__subtext {
+        font-size: 14px;
+    }
+    .second__section {
+        padding: 0 15px;
+    }
+    .second__description {
+        top: 20px;
+        margin-left: 20px;
+        font-size: 10px;
+        max-width: 120px;
+    }
+    .second__description-subtext1, .second__description-subtext2 {
+        line-height: 15px;
+    }
+    .second__description-headtext {
+        margin: 20px 0 10px 0;
+    }
+    .second__bottom-oval {
+        width: 32px;
+        height: 16px;
+        border-radius: 60px;
+    }
+    .second__bottom-oval:last-child {
+        margin-right: 0;
+    }
+    .second__bottom {
+        margin: 20px 0 30px 0;
+    }
+    .third__section-left {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .third__section-subtext {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .third__section-headdescription, .third__section-description {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .index1 {
+        bottom: 120px;
+    }
+    .index5, .index6 {
+        bottom: -250px;
+        transform: translateY(-50px);
+    }
+    .index2, .index2-2 {
+        bottom: -200px;
+    }
+    .index3, .index4 {
+        bottom: -200px;
+    }
+    
+}
+
+@media (max-width: 508px) {
+
+    .index1 {
+        z-index: 12;
+        bottom: 220px;
+        transform: translateY(50px);
+    }
+    
+    .index2-2 {
+        z-index: 10;
+        transform: translateY(-40px);
+        bottom: 0;
+    }
+    
+    .index2 {
+        transform: translateY(-40px);
+        bottom: 0;
+    }
+    
+    .index3 {
+        z-index: 3;
+        transform: translateY(-80px);
+        bottom: 0;
+    }
+    
+    .index4 {
+        z-index: 2;
+        transform: translateY(-80px);
+        bottom: 0;
+    }
+    
+    .index5 {
+        z-index: 11;
+        transform: translateY(-225px);
+        bottom: 0;
+    }
+    
+    .index6 {
+        z-index: 1;
+        transform: translateY(-225px);
+        bottom: 0;
+    }
+    
+    .element-show {
+        opacity: 1;
+        transition: all 2s;
+        transform: translateY(0%);
+    }
+}
+
+@media (max-width: 425px) {
+    body._lock {
+        overflow: hidden;
+    } 
+    header {
+        grid-template-areas:
+        "logo button burger"
+        "nav nav nav";
+    }
+
+    .toggle-sidebar {
+        display: block;
+        grid-area: btn;
+        width: 33px;
+        height: 33px;
+        align-self: flex-start;
+        justify-self: flex-end;
+        margin-top: 10px;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        z-index: 55;
+        grid-area: burger;
+    }
+
+    .menu-icon-wrapper {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 55;
+    }
+
+    .menu-icon {
+        position: relative;
+        width: 30px;
+        height: 5px;
+        background-color: black;
+    }
+
+    .menu-icon::before {
+        position: absolute;
+        left: 0;
+        top: -10px;
+        content: '';
+        width: 30px;
+        height: 5px;
+        background-color: black;
+        transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+    }
+
+    .menu-icon::after {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        content: '';
+        width: 30px;
+        height: 5px;
+        background-color: black;
+        transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+    }
+
+    .menu-icon.menu-icon-active {
+        background-color: transparent;
+    }
+
+    .menu-icon.menu-icon-active::before {
+        transform: rotate(45deg);
+        top: 0;
+        transition: top 0.2s linear, transform 0.2s ease-in;
+        background-color: gray;
+    }
+
+    .menu-icon.menu-icon-active::after {
+        transform: rotate(-45deg);
+        top: 0;
+        transition: top 0.2s linear, transform 0.2s ease-in;
+        background-color: gray;
+    }
+
+    .header__nav ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 500px;
+        transition: all 0.2s ease-in;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 40px 0 0 20px;
+    }
+
+    .header__nav._active ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        
+        opacity: 90%;
+
+    }
+
+    .nav__element {
+        font-size: 50px;
+    }
+
+    .header__nav li {
+        margin-bottom: 60px;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+    .first__section, .second__section {
+        padding: 0 10px;
+    }
+    .second__subtext {
+        display: none;
+    }
+    .second__image {
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .second__image img:nth-of-type(2){
+        display: none;
+    }
+    .third__section-left {
+        margin: 0 0 0 10px;
+    }
+    .third__section-subtext {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .index1 {
+        bottom: 160px;
+    }
+}
